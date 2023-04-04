@@ -130,7 +130,7 @@ const renderRepoList = () => {
 	data.forEach((item) => {
 		let html = ''
 		html += `<div class="subtitle">${item.title}</div>`
-		html += `<button data-name='${item.title}' class="button is-primary visit-button"> visit </button>`
+		html += `<button data-name='${item.title}' class="button is-link visit-button"> visit </button>`
 		repoListDom.innerHTML += `<div class="column is-3">
 						<div class="box">
 							${html}
